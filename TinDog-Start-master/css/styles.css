@@ -1,0 +1,161 @@
+/*****************************************TAG SELECTORS*****************************************/
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+p {
+  color: #8f8f8f;
+}
+
+/*****************************************CLASS SELECTORS*****************************************/
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  .colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+  }
+  .white-section {
+    background-color: white;
+  }
+
+/*****************************************ID SELECTORS*****************************************/
+
+
+/******************* NAV BAR and TITLE *******************/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+@media (max-width: 1035px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+}
+
+
+/* //////////////////// NAV BAR //////////////////// */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* //////////////////// TITLE //////////////////// */
+.title-letters {
+  font-size: 3.1rem;
+  line-height: 1.5;
+}
+.download-button {
+  margin: 5% 3% 0 0;
+}
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 330px;
+}
+@media (max-width: 1143px) {
+  .title-image {
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+    margin: 10% 0 0;
+  }
+}
+
+/* //////////////////// FEATURES ////////////////////  */
+#features .container-fluid {
+  padding: 7% 13%;
+}
+
+#features {
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .feature-col-distance {
+    padding: 7% 0;
+  }
+}
+@media (max-width: 991px) {
+  .feature-col-distance {
+    padding: 5% 0;
+  }
+}
+.icons-features {
+  color: #ef8172;
+  font-size: 3rem;
+  padding: 0 0 20px;
+}
+.icons-features:hover {
+  color: #ff4c68;
+}
+.feature-header {
+  font-weight: 800;
+}
+.features-letters {
+  padding: 0 10%;
+}
+
+/* //////////////////// TESTIMONIALS //////////////////// */
+.testi-letters {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.testi-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+/* //////////////////// PRESS //////////////////// */
+.prees-img {
+  width: 15%;
+  margin: 0 15px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 0 0 7% 0;
+}
+
+/* //////////////////// PRICING //////////////////// */
+.pricing-header-letters {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.col-card-padding {
+  padding: 3% 1.5% 0;
+}
+.card-header-border-color:hover {
+  border-color: #ff4c68;
+}
+
+/* //////////////////// CALL TO ACTION //////////////////// */
+.cta-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* //////////////////// FOOTER //////////////////// */
+.footer-icons {
+  padding: 20px 10px;
+}
